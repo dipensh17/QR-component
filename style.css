@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit";
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 50vh;
+}
+
+.container {
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  min-width: 80px;
+  min-height: 90px;
+  border-color: blue;
+}
+
+.img1 {
+  width: 280px;
+  border-radius: 7px;
+  margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.card {
+  background-color: white;
+  width: 310px;
+  height: 480px;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+.heading {
+  margin-top: 15px;
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.para {
+  margin-top: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
